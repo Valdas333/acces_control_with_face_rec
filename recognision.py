@@ -2,11 +2,6 @@ import cv2
 import numpy as np
 import os 
 
-
-import cv2
-import numpy as np
-import os 
-
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('trainer/trainer.yml')
 faceCascade = cv2.CascadeClassifier(('C:\\Users\\Valdemaras\\Desktop\\opencv\\build\\etc\\haarcascades\\haarcascade_frontalface_default.xml'))
